@@ -8,6 +8,7 @@ pipeline {
                     echo "DevOps Rocks!"
                     curl -v google.com
                 '''
+                sh 'echo mukodik'
             }
         }
     }
